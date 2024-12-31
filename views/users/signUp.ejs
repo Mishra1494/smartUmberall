@@ -1,0 +1,56 @@
+<% layout("/layouts/alwayInclude") %>
+<div class="row">
+    <h1 class="col-6 offset-3">SignUp here</h1>
+    <div class="col-6 offset-3">
+        <form action="/signUp" method="post" class="needs-validation" novalidate>
+            <div class="mb-3">
+                <label for="username" class="form-label">Name</label>
+                <input
+                    name="name"
+                    id="name"
+                    placeholder="Enter the your name"
+                    type="text"
+                    class="form-control"
+                    required
+                    >
+            </div>
+            <div class="mb-3">
+                <label for="username" class="form-label">email</label>
+                    <input 
+                        name="email" 
+                        id="email"
+                        placeholder="Enter your email-id" 
+                        type="text" 
+                        class="form-control"
+                        required
+                    >
+            </div>
+            <div class="mb-3">
+                <label for="username" class="form-label">Username</label>
+                <input 
+                    name="username" 
+                    id="username"
+                    placeholder="Enter the username" 
+                    type="text" 
+                    class="form-control"
+                    required
+                >
+                <div class="valid-feedback">
+                    Title looks good!
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">password</label>
+                    <input 
+                            name="password" 
+                            id="password"
+                            placeholder="Enter the password" 
+                            type="text" 
+                            class="form-control"
+                            required
+                    >
+            </div>
+            <button class="btn btn-success">signUp</button>
+        </form>
+    </div>
+</div>
