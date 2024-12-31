@@ -11,5 +11,3 @@ router.get("/",(req,res)=>{
 
 module.exports = router;
 
-
-// jvep otef zlvm tbtp
